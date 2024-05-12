@@ -1,0 +1,36 @@
+.testimonial-heading{
+    margin-top: 110px;
+    text-align: center;
+}
+
+.testimonial-heading h2{
+    font-family:'Bodoni SvtyTwo ITC TT Book';
+    font-size: 40px;
+    font-weight: 400;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 70px;
+        border: 3px solid #ff5a00;
+        margin: auto;
+        margin-top:3px;;
+    }
+}
+
+
+.footer-slider .swiper{
+    text-align: center;
+    width: 70%;
+    height: 150px;  
+}
+
+.footer-slider h4 {
+    font-size: 22px;
+    font-family: 'poppins-bold';
+}
+
+.footer-slider p {
+    font-size: 16px;
+    margin-top: 20px;
+}

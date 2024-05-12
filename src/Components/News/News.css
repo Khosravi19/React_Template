@@ -1,0 +1,63 @@
+.news-heading{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.news-heading h2{
+    font-family:'Bodoni SvtyTwo ITC TT Book';
+    font-size: 40px;
+    font-weight: 400;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 70px;
+        border: 3px solid #ff5a00;
+        margin: auto;
+        margin-top:3px;
+        margin-bottom: 40px;
+    }
+}
+
+.news-img{
+    display: flex;
+}
+
+.news-img .box:first-child{
+    margin: 0 35px 0 38px;
+}
+
+.news-img img {
+    width: 550px;
+    border-radius: 45px;
+    filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.3));
+}
+
+.news-detail{
+    display: flex;
+    text-align: center;
+}
+
+.news-detail .box {
+    width: 50%;
+}
+
+.news-detail h4 {
+    font-family: 'poppins-bold';
+    font-size: 24px;
+    margin:20px 0 10px 0;
+}
+
+.news-detail p {
+    font-family: 'poppins-regular';
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.news-detail a {
+    font-size: 45px;
+
+    &:hover {
+        color: yellow;
+    }
+}

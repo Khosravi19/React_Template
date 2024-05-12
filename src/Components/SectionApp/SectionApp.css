@@ -1,0 +1,77 @@
+.app-section{
+    background-image: url(../../../public/images/app-bg.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 230px 0 240px 0;
+}
+
+.app-section .container {
+  display: flex;
+  justify-content: space-around;
+  width: 920px;
+  height: 340px;
+  margin:auto;
+  padding: 0px 15px 0px 15px;
+}
+
+.app-section .detail-box {
+  font-size: 16px;
+  color: white;
+  margin-top: 42px;
+}
+
+.app-section .detail-box h2{
+  font-family:"Poppins-Regular";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.app-section .detail-box span {
+  color: rgb(255, 229, 55);
+}
+
+.app-section .detail-box p {
+  font-family: 'poppins-regular';
+  margin-top: 25px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.app-section .detail-box .img-box{
+margin-top: 35px;
+}
+
+.app-section .detail-box .img-box img {
+  height: 45px;
+}
+
+.app-section .img-box img:first-child{
+  margin-right: 5px;
+}
+
+.app-section .detail-box button {
+  width: 210px;
+  height: 50px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 50px;
+  padding: 0 35px 0 35px;
+  background: rgb(255, 229, 55);
+  font-size: 16px;
+  font-family: 'poppins-regular';
+}
+
+.app-section .detail-box button:hover{
+  background: none;
+  color: yellow;
+  border: 1px solid yellow;
+}
+
+.app-section .img-mobile {
+  width: 250px;
+  height: 400px;
+  vertical-align: middle;
+}
+
+

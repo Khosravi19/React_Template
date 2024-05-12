@@ -1,0 +1,37 @@
+.about-container {
+    text-align: center;
+}
+
+.about-container h2{
+    font-family:'Bodoni SvtyTwo ITC TT Book';
+    font-size: 40px;
+    font-weight: 400;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 70px;
+        border: 3px solid #ff5a00;
+        margin: auto;
+        margin-top:3px;
+        margin-bottom: 40px;
+    }
+}
+
+.about-container p{
+    width: 920px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'poppins-regular';
+}
+
+.about-container a{
+    font-size: 45px;
+
+    &:hover {
+        color: yellow;
+    }
+}

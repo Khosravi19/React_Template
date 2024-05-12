@@ -1,0 +1,69 @@
+.recipe-section{
+    text-align: center;
+}
+
+.recipe-section h2{
+    font-family:'Bodoni SvtyTwo ITC TT Book';
+    font-size: 40px;
+    font-weight: 400;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 70px;
+        border: 3px solid #ff5a00;
+        margin: auto;
+        margin-top:3px;
+        margin-bottom: 40px;
+    }
+}
+
+.recipe-section .row{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.recipe-section .img-box{
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.recipe-section img{
+    border-radius: 0px 60px 0 60px;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.3));
+}
+
+.detail-box h4 {
+    font-family:'Bodoni SvtyTwo ITC TT Book';
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.detail-box a{
+    font-size: 45px;
+
+    &:hover {
+        color: yellow;
+    }
+}
+
+.recipe-section button{
+    width: 180px;
+    height: 45px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 50px;
+    padding: 0 20px 0 20px;
+    background: rgb(255, 229, 55);
+    font-size: 16px;
+}
+
+.recipe-section button:hover{
+  background: none;
+  color: yellow;
+  border: 1px solid yellow;
+}

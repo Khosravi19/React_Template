@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  background-image: url(../public/images/body-bg.jpg);
+  background-size: cover;
+}
+
+@font-face {
+  font-family:'Bodoni SvtyTwo ITC TT Book';
+  src: url(../public/fonts/bodoni-svtytwo-sc-itc-tt-book.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'Poppins-Bold';
+  src: url(../public/fonts/Poppins-Bold.ttf) format('truetype') ;
+}
+
+@font-face {
+  font-family:'Poppins-Regular';
+  src: url(../public/fonts/Poppins-Regular.ttf);
+}
+

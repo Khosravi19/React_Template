@@ -1,0 +1,51 @@
+.footer-container{
+    background-image: url(../../../public/images/footer-bg.png);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 245px;
+    text-align: center;
+    font-size: 22px;
+ 
+}
+
+.footer-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content{
+   
+    margin: auto;
+    padding: 10px 0 30px 0;
+}
+
+.footer-content a {
+    margin-inline: 70px;
+}
+
+.footer-info{
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.footer-info a {
+    margin-inline: 20px;
+    font-size: 16px;
+}
+
+.footer-social{
+    margin: auto;
+    padding-bottom: 50px
+}
+
+.footer-social a {
+    margin-inline: 22px;
+    font-size: 16px;
+}
+
+.copy-right{
+    color: white;
+    font-size: 16px;
+    font-family: 'poppins-regular';
+}
+
